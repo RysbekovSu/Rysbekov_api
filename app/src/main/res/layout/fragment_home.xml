@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@drawable/leclerc"
+    android:padding="22dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:background="#FF008D"
+        android:text="Let's go!!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+        <TextView
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="25dp"
+            android:background="#FF008D"
+        android:text="category"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="25dp"
+        android:background="#FF008D"
+        android:text="price for 1 person"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/participate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="25dp"
+        android:background="#FF008D"
+        android:text="participate"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="25dp"
+        android:text="link"
+        android:background="#FF008D"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="25dp"
+        android:background="#FF008D"
+        android:gravity="center_horizontal"
+        android:text="accesebility"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+    <ImageView
+        android:id="@+id/zoom_btn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_notifications_black_24dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="2dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGo"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:backgroundTint="@color/teal_200"
+        android:text="What can I do"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="24dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:backgroundTint="@color/teal_200"
+        android:text="back"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="24dp" />
+
+
+</LinearLayout>
