@@ -59,18 +59,18 @@ public class BoardFragment extends Fragment {
     @SuppressLint("ResourceAsColor")
     public void changeColor(){
         if(binding.viewPager2.getCurrentItem()==0){
-            binding.iv1.setImageResource(R.drawable.ic_launcher_background);
-            binding.iv2.setImageResource(R.drawable.ic_dashboard_black_24dp);
-            binding.iv3.setImageResource(R.drawable.ic_dashboard_black_24dp);
+            binding.iv1.setImageResource(R.drawable.img_3);
+            binding.iv2.setImageResource(R.drawable.img);
+            binding.iv3.setImageResource(R.drawable.img);
         }else{
             if (binding.viewPager2.getCurrentItem()==1){
-                binding.iv1.setImageResource(R.drawable.ic_dashboard_black_24dp);
-                binding.iv2.setImageResource(R.drawable.ic_launcher_background);
-                binding.iv3.setImageResource(R.drawable.ic_dashboard_black_24dp);
+                binding.iv1.setImageResource(R.drawable.img);
+                binding.iv2.setImageResource(R.drawable.img_3);
+                binding.iv3.setImageResource(R.drawable.img);
             }else {
-                binding.iv1.setImageResource(R.drawable.ic_dashboard_black_24dp);
-                binding.iv2.setImageResource(R.drawable.ic_dashboard_black_24dp);
-                binding.iv3.setImageResource(R.drawable.ic_launcher_background);
+                binding.iv1.setImageResource(R.drawable.img);
+                binding.iv2.setImageResource(R.drawable.img);
+                binding.iv3.setImageResource(R.drawable.img_3);
             }
         }
     }

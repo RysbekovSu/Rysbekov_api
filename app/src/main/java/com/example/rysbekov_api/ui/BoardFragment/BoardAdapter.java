@@ -18,9 +18,9 @@ import com.example.rysbekov_api.databinding.ItemBoardBinding;
 public class BoardAdapter extends RecyclerView.Adapter<BoardAdapter.ViewHolder> {
     ItemBoardBinding binding;
     NavController navController;
-    private  int[] images = new int[]{R.drawable.ic_launcher_background,
-            R.drawable.ic_home_black_24dp,
-            R.drawable.ic_launcher_foreground};
+    private  int[] images = new int[]{R.drawable.world,
+            R.drawable.ecology,
+            R.drawable.you};
 
     private  String[] titles = new String[]{
             "what have you done for the world? ",
@@ -55,7 +55,7 @@ public class BoardAdapter extends RecyclerView.Adapter<BoardAdapter.ViewHolder> 
             if(position==titles.length-1){
                 binding.btnStart.setVisibility(View.VISIBLE);
             }else {
-                binding.btnStart.setVisibility(View.VISIBLE);
+                binding.btnStart.setVisibility(View.GONE);
             }
             binding.btnStart.setOnClickListener(v->{
                 new Prefs((Activity) itemView.getContext()).saveBoardState();

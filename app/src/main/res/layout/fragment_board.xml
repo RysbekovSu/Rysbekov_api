@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20sp"
-    android:background="@color/material_dynamic_primary20"
+    android:background="#000"
     tools:context=".ui.BoardFragment.BoardFragment">
 
     <androidx.viewpager2.widget.ViewPager2

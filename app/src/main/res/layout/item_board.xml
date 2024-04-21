@@ -28,8 +28,8 @@
         android:layout_marginTop="28dp"
         app:cornerRadius="22dp"
         android:text="Start"
-        android:textColor="@color/black"
-        android:backgroundTint="#9A4DC6"
+        android:textColor="@color/white"
+        android:backgroundTint="#0D47A1"
         android:visibility="invisible"/>
 
 
